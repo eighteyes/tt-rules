@@ -67,8 +67,8 @@ Communal Minions live 2 to a Hovel. These are drawn upon for Constructions by al
 #### Private Minions
 A Mud Hut supports 2 Private Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two workers, one of which will be a Servant. The Boss Hut can support multiple Hovels, and doesn't have a Servant requirement. Private Minions may only be used by the owning Troll.
 
-##### Servants & Artisans
-To facilitate upgrades Private Minions are used as a permanent labor force in a Hut or Shop. Once a Private Minion becomes a Servant or a Artisan, they are no longer a Private Minion and are permanently assigned to a building hovel. Move the Private Minion token to the Upgrade Hovel as part of the Upgrade Action.
+##### Servants, Guards & Artisans
+To facilitate upgrades Private Minions are used as a permanent labor force in a Pit, Hut or Shop. Once a Private Minion becomes a Guard, Servant or a Artisan, they are no longer a Private Minion and are permanently assigned to a building hovel. Move the Private Minion token to the Upgrade Hovel as part of the Upgrade Action.
 
 ## Confusing Bits
 
@@ -191,7 +191,8 @@ A hovel enables residence for two workers. Hovels may be built off another Hovel
 
 ## Cages
 (2)
-Holds two children.
+Holds two children. Must be connected to Bridge to store. Must be connected to Shops to cook.
+
 
 ## Shops
 (4)
@@ -232,8 +233,27 @@ Allows Shops, Huts to Upgrade. Can be built off Shops and Huts.
 
 ## Pit
 (9)
-Stores 9, 18, 27 Children. Must be connected to Bridge to store. Must be connected to Shops to cook.
-Add on Hovels + 2 Guard for Level 2 and 3.
+Must be connected to Bridge to store. Must be connected to Shops to cook.
+### Lvl 1
++ Stores 9 Children
+
+### Lvl 2
+Requirements
++ Hovel Upgrade
++ +2 Guards
+
+Benefits
+
++ Stores 18 Children
+
+### Lvl 3
+Requirements
++ 2nd Hovel Upgrade
++ +2 Guards
+
+Benefits
+
++ Stores 18 Children
 
 ## Hut
 (6)
@@ -376,18 +396,24 @@ Build - Same. Has priority over Trolls. Costs one less Minion.
 ## Boss Auto Actions:
 Heal at closest shop or Build to Hub if needed.
 ### On Turn 10:
-Steals one Worker from each Troll, going in order starting at closest.
-Builds towards closest hut until non-hub path is complete, then do next. Hates straight lines.
-Boss can't steal worker? Strike instead.
+> Intimidate : Steals one Worker from each Troll, going in order starting at closest.
+
+> Builds towards closest hut until non-hub path is complete, then do next. Hates straight lines.
+
+> Boss can't steal worker? Strike instead.
 
 Once complete, Builds Hovel off Hut
-###
-Turn 20:
-Intimidate: Total of 4 Workers. Builds Pit next to Hut.
-Upgrades Hut. Adds Hovel Turn 20: 3ntimidate 2 More Workers, total of 6.
-Upgrades Hut. Adds Extra Hovel
+### Turn 20:
+> Intimidate: Total of 4 Workers. Builds Pit next to Hut.
+Adds Hovel
 
-### Retribution: If A Troll Challenges the Boss and Loses, you are prioritized for Intimidation as much as possible + damage around Hut, similiar to Tantrum.
+### Turn 30:
+Intimidate 2 More Workers, total of 6.
+
+Upgrades Hut
+
+### Retribution
+If A Troll Challenges the Boss and Loses, you are prioritized for Intimidation as much as possible + damage around Hut, similiar to Tantrum.
 
 ### Boss Tantrums
 For each child the Feast is short, the boss Damages one Path Join. The Boss will Damage (Break if already Damaged), every Path Join around a structure before moving onto the next one. The Boss will target structures in the following order:
@@ -409,8 +435,11 @@ Any Troll who has an unbroken connection between their Hut and the Hub is consid
 
 # House Rules
 Closest cage or pit escapes during Conflict
+
 Boss has to build a path to the Hub before building to Huts
+
 Choose Boss Stats
+
 
 # Advanced Version
 
