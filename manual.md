@@ -1,5 +1,3 @@
-Troll Town is a hex based board game of communication, cooperation, competition, creation, destruction and feasting on children. TT supports 2-5 players and should have a total playtime of < 1 hour. Some manual dexterity is required to play. Try a felt tabletop
-
 # Start Here
 ## Intro
 Welcome to Troll Town, a game of communication, cooperation, competition and feasting on children. Some manual dexterity is required to play.
