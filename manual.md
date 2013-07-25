@@ -16,24 +16,39 @@ A game of Troll Town is conducted over the course of 40 turns. A turn consists o
 ### Actions
 Actions are declared at the same time, and resolve in the following order.
 
-Boss Action -> Minion Actions
-Troll Action -> Minion Actions
+- Boss Action -> Minion Orders
+- Troll Action -> Minion Orders
 
 This is accomplished by the Trolls:
-Declaring troll / minion actions by placing tokens on slate, hiding if desired.
-Each Troll will exclaim 'ready' or grunt when done. 
-Reveal: Declare Action, Resolve Conflicts
-Order: Declare 1 Construction, Resolve Conflicts
-( Needs some clarification )
-Players declare in the order they grunted.
+**Planning**
+- Declaring troll / minion actions by placing tokens on slate, hiding if desired.
+- Each Troll will exclaim 'ready' or grunt when done.
 
-I : Challenge Boss, Child, Minion
-II: Upgrade Hovel, Heal, Schmooze, Smash
-III: Upgrade Pile, Scare, Fight, Destroy
-IV: Fire
+Once all Trolls are ready, players declare Actions and Orders in the same order they announced. If an order is Planned, it MUST be Declared.
+
+**Declaration**
+- Troll: Declare Action, Resolve Conflicts
+  - All Trolls finish Action before Minion Orders are declared.
+  - Conflicts are resolved before Orders.
+- Minion: Declare Orders, Resolve Conflicts
+  - Players declare their Orders one at a time by stating the Construction and required workers
+  - An insufficient number of Communal Workers causes a Conflict
+
+#### Era Specific Actions
+    I : Challenge Boss, Child, Minion
+    II: Upgrade Hovel, Heal, Schmooze, Smash
+    III: Upgrade Pile, Scare, Fight, Destroy
+    IV: Fire
 
 #### Post Turn
 Minions must stay in Hovels or Huts and Children must be placed in Cages or Huts. Otherwise they run away and are removed from the board.
+
+## Feast Day
+The whole point of building a Troll Town is Feast Day.
+All injuries are healed.
+Feasting automatically occurs at the end of Turn 10, 20, 30 and 40, unless triggered earlier by the Troll Boss.
+On Feast Day, there must be 4, 16, 25 and 40 children captured, and sufficient Workshops to cook them.  Otherwise the Boss throws a Tantrum.
+Keep overage children for next Feast.
 
 ### Trolls
 Each player is a Troll and takes an Action each Turn. There is also a Non-Player Troll Boss. At the beginning of the game, Trolls live on the Bridge, and move to a Hut when one is built.
@@ -47,18 +62,23 @@ Minions are slave creatures captured when Trolls do a Capture Worker action.
 Minions are either communal or private, decided by where they are placed at the time of capture.
 
 #### Communal Minions
-Communal Minions live 2 to a Hovel.
+Communal Minions live 2 to a Hovel. These are drawn upon for Constructions by all Trolls.
 
 #### Private Minions
-A Mud Hut supports 2 Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two workers. The Boss Hut can support multiple Hovels.
+A Mud Hut supports 2 Private Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two workers, one of which will be a Servant. The Boss Hut can support multiple Hovels, and doesn't have a Servant requirement. Private Minions may only be used by the owning Troll.
+
+##### Servants & Artisans
+To facilitate upgrades Private Minions are used as a permanent labor force in a Hut or Shop. Once a Private Minion becomes a Servant or a Artisan, they are no longer a Private Minion and are permanently assigned to a building hovel. Move the Private Minion token to the Upgrade Hovel as part of the Upgrade Action.
 
 ## Confusing Bits
 
 ### Every Turn Is Taken Simultaneously
 
-Troll & Minion actions can cause Conflicts. Boss and Boss Minion Actions never cause Conflicts unless intended (like Fight), instead take Priority over Troll & Minion Actions.
+Troll Actions & Minion Orders can cause Conflicts. Boss Actions and Boss Minion Orders never cause Conflicts, instead take Priority over Actions & Orders.
 
-Players each declare Minion build actions at the same time, then collect the required minions from their dwellings. Multiple players going after the same Minion results in a Conflict. After the first round of buildings are complete, subsequent rounds occur.
+Troll Actions can Conflict. If, for example, two Trolls choose the "Capture Child" Action, they will conflict. However, if both Trolls instead chose the "Capture Minion" Action, there is no conflict. ( See Troll Actions )
+
+Players declare Minion Orders, then collect the required minions from their dwellings. Multiple players going after the same Minion results in a Conflict.After the first round of buildings are complete, subsequent rounds occur.
 
 ### In-Game Disputes Solved with Combat
 When player chopsticks touch, this is considered a Conflict.
@@ -71,87 +91,91 @@ At site of infraction, or at intersection between Huts.
 
 ## Troll Actions
 Parenthesis indicates Location of Conflict. I means an Intersection between the Troll Dwellings.
-### I
-(Do not conflict)
- Get Resource - Add worker
-(Conflict)
-Capture Child (I) - Add children to hovel, cage or pit
-Challenge (I) - Resolves amongst Trolls, then Boss.
-### II
-Smash - Break a Damaged Path Join. Conflict will break it anyway.
-( Can Conflict If Not Enough Shops )
-Upgrade - (Shop) - Upgrade Hut / Shop with Hovel / Pile
-Heal (Shop) - Remove one injury token
-( Will Conflict )
-Schmooze (I) - Build w/o Conflict. Can cause Conflict. Costs 1 Private Worker.
-Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
-### III
-(Conflict)
-Fight (I) - Start fight, steal worker.
-Destroy ( Target ) - Destroy Path or Building ( 1 private worker per hex ). Closest Hut Troll will Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
-Start fire - Sacrifice private worker. Start fire on building next to Path.
 
-## Minion Actions:
+### I
+
+**Do not conflict**
+
+- Get Resource - Add worker
+
+**Conflict**
+
+- Capture Child (I) - Add children to hovel, cage or pit
+- Challenge (I) - Resolves amongst Trolls, then Boss.
+
+### II
+
+**No Conflict**
+
+- Smash - Break a Damaged Path Join. Conflict will break it anyway.
+
+**Can Conflict If Not Enough Shops**
+
+- Upgrade - (Shop) - Upgrade Hut / Shop with Hovel / Pile
+- Heal (Shop) - Remove one injury token
+
+**Will Conflict**
+
+- Schmooze (I) - Build w/o Conflict. Can cause Conflict. Costs 1 Private Worker.
+- Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
+
+### III
+**Conflict**
+- Fight (I) - Start fight, steal worker.
+- Destroy ( Target ) - Destroy Path or Building ( 1 private worker per hex ). Closest Hut Troll will Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
+
+### IV
+- Start fire - Sacrifice private worker. Start fire on Path.
+
+## Minion Orders:
 Build (Hex) - Conflict happens when building on same hex
 
 # Constructions:
-The Inner Path is the Path hexes surrounding the Hub.
+The *Inner Path* comprises of the Path hexes surrounding the Hub.
+
+The *Bridge* is the vertical 3-tile piece on top of the Hub.
 
 ## Building rules
-Conflicts must be resolved before building.
-All Buildings must be built next to Paths, except Hovels or Piles.
-Buildings may be made with Workers gained by Trolls this turn.
-(Turn 1, a cage can be built if one worker is captured)
-No Paths or Buildings can go beyond an imaginary horizontal line formed by the top Path Join of the top Bridge tile.
-Buildings must have sufficient Adjacent Path Joins (number indicated with building) to be built.
-Must be a Path between Hub and target hexes.
-Huts cannot be placed off the Inner Path. Trolls like some privacy.
+- Conflicts must be resolved before building.
+- All Buildings must be built next to Paths, except Hovels or Piles.
+- No Paths or Buildings can go beyond an imaginary horizontal line formed by the top Path Join of the top Bridge tile.
+- Must be a Path between Hub and target Construction.
+- Huts cannot be placed off the Inner Path. Trolls like some privacy.
+- Buildings must have sufficient supporting Path Joins ( required number indicated with building) to be built.
 
-## Damage
+> For Example: A Shop must have 4 Path Joins
 
-### Path Damage
-Paths Joins have three states, Intact, Damaged and Broken.
-When a Construction is Broken, it is removed from the board.
-When a Path is Damaged, it is marked with a token.
+- Buildings may be made with Workers gained by Trolls this turn.
 
-### Broken Paths
-If a Path has one Path Join Broken, it becomes a candidate for removal. This will result in two hex candidates.
-
-#### Path Hex Removal Determination
-Each hex is assigned a point value, the hex with a greater point value stays. A tie removes both Hexes.
-Path Joins = -1
-Damaged Path Joins = -2
-Building Connections = +1
-Path Connection = +1
-Inner Path = +1
-Bridge = +10
-
-#### Path Hex Removal Action
-Replace Path tile with a smaller one. ( 4 hex > 3 Hex, 3 > 2, 2 > 1, 1 > removed ). When a Path is removed, all Buildings connected to that Path are also Destroyed, unless connected to another Path.
-
-### Building Damage:
-If a Path Hex is removed, any attached buildings suffer one damage. Buildings can be Broken if they are Damaged one for each hex.
-(If a Hovel is Damaged once, it is Broken. A workshop must be damaged three times to be Broken)
-
-### Broken Buildings
-If a building is Broken, flip the tile over. This space is full of debris and cannot be used.
+> For Example: On turn 1, a cage can be built if one worker is captured*
 
 # Constructions
 ## Costs:
-(Cannot build 1 Hexes)
-2 Hex - 2 Workers
-3 Hex - 4 Workers
-4 Hex - 5 Workers
-Mud Hut - 2 Workers
-Wood Hut - 6 Workers
-Hovel - 2 Workers
-Cage - 1 Worker
-Pit - 6 Workers
-Shop - 4 Workers
+
+> (Cannot build 1 Hexes)
+>
+> 2 Hex - 2 Workers
+>
+> 3 Hex - 4 Workers
+>
+> 4 Hex - 5 Workers
+>
+> Mud Hut - 2 Workers
+>
+> Wood Hut - 6 Workers
+>
+> Hovel - 2 Workers
+>
+> Cage - 1 Worker
+>
+> Pit - 6 Workers
+>
+> Shop - 4 Workers
 
 ### Upgrades
-Hovel - 3 workers
-Pile - 6 Workers
+> Hovel - 3 workers
+>
+> Pile - 6 Workers
 
 ## Paths
 2, 3 and 4 hex
@@ -172,20 +196,35 @@ Holds two children.
 ## Shops
 (4)
 Shops serve many purposes:
-Lvl 1
-Cook 2 children.
-Snare - 2 kids per trip
-Heal One Injury
-Lvl 2 requires attached hovel + 3 workers ( 1 perm from private )
-Cook 4 kids
-Rope - 4 kids per trip
-Two Injuries
-Cook 8 Kids
-Lvl 3 requires attached stockpile + 4 workers ( 2 perm from private )
-Bag - 8 kids per trip
-Heal two injuries
+### Lvl 1
+Requirements
 
-Shops also belong to a Troll.
+- 2 workers to operate
+
+Benefits
+- Cook 2 children.
+- Snare - 2 kids per trip
+- Heal One Injury
+
+### Lvl 2
+Requirements
++ attached hovel
++ 3 workers to operate ( +1 Artisan )
+
+Benefits
+- Cook 4 kids
+- Rope - 4 kids per trip
+- Two Injuries
+
+### Lvl 3
+Requiremnts
++ attached stockpile
++ 4 workers to operate ( +1 / Total 2 Artisans )
+
+Benefits
+- Cook 8 Kids
+- Bag - 8 kids per trip
+- Heal two injuries
 
 ## Pile
 (2)
@@ -199,13 +238,23 @@ Add on Hovels + 2 Guard for Level 2 and 3.
 ## Hut
 (6)
 Troll Dwelling.
-Lvl 1
-2 Workers
-Lvl 2 + Add Hovel + 1 Servants
-6 Workers
-Lvl 3 + Add Pit + 1 Servants
-+1 Stats for total of +2
+### Lvl 1
+Benefits
+2 Private Workers Max
++1 Stats
 
+### Lvl 2
+Requirements
++ Add Hovel Upgrade
++ 1 Servant
+Benefits
+6 Workers
+### Lvl 3
+Requirements
++ Add Pit
++ 1 Servant (Total of 2)
+Benefits
++1 Stats for total of +2
 
 # Child Escape
 ## Rules
@@ -275,12 +324,41 @@ When multiple Trolls Conflict, attacks occur in a clockwise direction, and when 
 ### Challenges
 Five Conflicts. Keep going in case of 5 ties. When Location is destroyed, find another Intersection, through buildings if a Path Intersection cannot be found. If there is still no Intersection, do 5 battles, and determine the winner of the group.
 
-## Feast Day
-The whole point of building a Troll Town is Feast Day.
-All injuries are healed.
-Feasting automatically occurs at the end of Turn 10, 20, 30 and 40, unless triggered earlier by the Troll Boss.
-On Feast Day, there must be 4, 16, 25 and 40 children captured, and sufficient Workshops to cook them.  Otherwise the Boss throws a Tantrum.
-Keep overage children
+
+## Damage
+
+### Path Damage
+Paths Joins have three states, Intact, Damaged and Broken.
+When a Construction is Broken, it is removed from the board.
+When a Path is Damaged, it is marked with a token.
+
+### Broken Paths
+If a Path has one Path Join Broken, it becomes a candidate for removal. This will result in two hex candidates.
+
+#### Path Hex Removal Determination
+Each hex is assigned a point value, the hex with a greater point value stays. A tie removes both Hexes.
+
+> Path Joins = -1
+>
+> Damaged Path Joins = -2
+>
+> Building Connections = +1
+>
+> Path Connection = +1
+>
+> Inner Path = +1
+>
+> Bridge = +10
+
+#### Path Hex Removal Action
+Replace Path tile with a smaller one. ( 4 hex > 3 Hex, 3 > 2, 2 > 1, 1 > removed ). When a Path is removed, all Buildings connected to that Path are also Destroyed, unless connected to another Path.
+
+### Building Damage:
+If a Path Hex is removed, any attached buildings suffer one damage. Buildings can be Broken if they are Damaged one for each hex.
+(If a Hovel is Damaged once, it is Broken. A workshop must be damaged three times to be Broken)
+
+### Broken Buildings
+If a building is Broken, flip the tile over. This space is full of debris and cannot be used.
 
 
 # Troll Boss
@@ -290,6 +368,7 @@ By default, the Boss is completely average, with a Hut, thus having stats of 4/4
 
 ## Boss Actions
 Intimidate : Steal Worker
+Strike : Cause Injury
 
 ## Boss Minion Actions:
 Build - Same. Has priority over Trolls. Costs one less Minion.
@@ -299,10 +378,10 @@ Heal at closest shop or Build to Hub if needed.
 ### On Turn 10:
 Steals one Worker from each Troll, going in order starting at closest.
 Builds towards closest hut until non-hub path is complete, then do next. Hates straight lines.
-Boss can't steal worker? Waits.
+Boss can't steal worker? Strike instead.
 
 Once complete, Builds Hovel off Hut
-### 
+###
 Turn 20:
 Intimidate: Total of 4 Workers. Builds Pit next to Hut.
 Upgrades Hut. Adds Hovel Turn 20: 3ntimidate 2 More Workers, total of 6.
