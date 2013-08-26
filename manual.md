@@ -29,7 +29,7 @@ Once all Trolls are ready, players declare Actions and Orders in the same order 
   - All Trolls finish Action before Minion Orders are declared.
   - Conflicts are resolved before Orders.
 - Minion: Declare Orders, Resolve Conflicts
-  - Players declare their Orders one at a time by stating the Construction and required workers
+  - Players declare their Orders one at a time by stating the Construction and required Minions
   - An insufficient number of Communal Workers causes a Conflict
 
 #### Era Specific Actions
@@ -63,7 +63,7 @@ Minions are either communal or private, decided by where they are placed at the 
 Communal Minions live 2 to a Hovel. These are drawn upon for Constructions by all Trolls.
 
 #### Private Minions
-A Mud Hut supports 2 Private Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two workers, one of which will be a Servant. The Boss Hut can support multiple Hovels, and doesn't have a Servant requirement. Private Minions may only be used by the owning Troll.
+A Mud Hut supports 2 Private Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two Minions, one of which will be a Servant. The Boss Hut can support multiple Hovels, and doesn't have a Servant requirement. Private Minions may only be used by the owning Troll.
 
 ##### Servants, Guards & Artisans
 To facilitate upgrades Private Minions are used as a permanent labor force in a Pit, Hut or Shop. Once a Private Minion becomes a Guard, Servant or a Artisan, they are no longer a Private Minion and are permanently assigned to a building hovel. Move the Private Minion token to the Upgrade Hovel as part of the Upgrade Action.
@@ -80,7 +80,7 @@ Players declare Minion Orders, then collect the required minions from their dwel
 
 ### In-Game Disputes Solved with Combat
 When player chopsticks touch, this is considered a Conflict.
-(ie. taking someone elses worker token )
+(ie. taking someone elses Minion token )
 At site of infraction, or at intersection between Huts.
 
 ### Round up.
@@ -94,7 +94,8 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 
 **Do not conflict**
 
-- Get Resource - Add worker
+- Capture Minion - Add Minion
+- Slave Drive - Get 2x Productivity out of a Worker. Kills Minion after.
 
 **Conflict**
 
@@ -105,33 +106,36 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 
 **No Conflict**
 
-- Smash - Break a Path Join. Conflict will break it anyway.
+- Smash - Break a Path Join.
 - Make Trinket - Requires Shop off Hut
+- Steal (I) - Start fight, steal 2 Private Minions.
 
 **Can Conflict If Not Enough Shops**
 
-- Upgrade - (Shop) - Upgrade Hut / Shop with Hovel / Pile
+- Upgrade - (Shop) - Upgrade Hut / Shop with Hovel
 - Heal (Shop) - Remove one injury token
 - Make Trap (Shop) - Make Spikes or Fences
 
 **Will Conflict**
 
-- Schmooze (I) - Build w/o Conflict. Can cause Conflict. Costs 1 Private Worker.
+- Schmooze (I) - Act / Build w/o Conflict. Can cause Conflict. Give 1 Private Worker to Boss.
 - Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
 
 ### Age III
 **Conflict**
-- Fight (I) - Start fight, steal worker.
-- Destroy ( Target ) - Destroy Path or Building ( 1 private worker per hex ). Closest Hut Troll can Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
-- Evict - Same as Challenge, except can be used vs other Trolls. Get Hut, all workers, all upgrades, except trinkets.
+- Destroy ( Target ) - Destroy Path or Building ( req. 1 private Minion per hex ). Closest Hut Troll can Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
+- Evict - Same as Challenge, except can be used vs other Trolls. Get Hut, all Minions, except trinkets. Loser occupies Winner's hut.
+
+- Upgrade - Add Shop to Hut, add Pile to Shop
 
 ### IV
-- Start fire - Sacrifice private worker. Start fire on Path.
+- Start fire - Sacrifice private Minion. Start fire on Path.
+- Upgrade - Add Pile to Hut
 
 ## Minion Orders:
 Build (Hex) - Conflict happens when building on same hex
-Attrition - Add +1 to any stat for all conflicts and challenges this turn. Attrition sacrifices the worker token.
-(Opt: Only private workers can be used for Attrition)
+Attrition - Add +1 to any stat for all conflicts and challenges this turn. Attrition sacrifices the Minion token.
+(Opt: Only private Minions can be used for Attrition)
 
 # Constructions:
 The *Inner Path* comprises of the Path hexes surrounding the Hub.
@@ -149,7 +153,7 @@ The *Bridge* is the vertical 3-tile piece on top of the Hub.
 
 - Buildings may be made with Workers gained by Trolls this turn.
 
-> For Example: On turn 1, a cage can be built if one worker is captured*
+> For Example: On turn 1, a cage can be built if one Minion is captured*
 
 # Constructions
 ## Costs:
@@ -175,7 +179,7 @@ The *Bridge* is the vertical 3-tile piece on top of the Hub.
 > Shop - 4 Workers
 
 ### Upgrades
-> Hovel - 3 workers
+> Hovel - 3 Minions
 >
 > Pile - 6 Workers
 
@@ -189,7 +193,7 @@ Troll hang out place, no in-game function.
 
 ## Hovels
 (1)
-A hovel enables residence for two workers. Hovels may be built off another Hovel.
+A hovel enables residence for two Minions. Hovels may be built off another Hovel.
 
 ## Cages
 (2)
@@ -202,7 +206,7 @@ Shops serve many purposes:
 ### Lvl 1
 Requirements
 
-- 2 workers to operate
+- 2 Minions to operate
 
 Benefits
 - Cook 2 children.
@@ -212,7 +216,7 @@ Benefits
 ### Lvl 2
 Requirements
 + attached hovel
-+ 3 workers to operate ( +1 Artisan )
++ 3 Minions to operate ( +1 Artisan )
 
 Benefits
 - Cook 4 kids
@@ -223,7 +227,7 @@ Benefits
 ### Lvl 3
 Requirements
 + attached Pile
-+ 4 workers to operate ( +1 / Total 2 Artisans )
++ 4 Minions to operate ( +1 / Total 2 Artisans )
 
 Benefits
 - Cook 8 Kids
@@ -288,8 +292,9 @@ Escape starts at release square, closest to nearest Bridge.
 More then one child automatically split into two groups at Release Square.
 ## Pathing Mechanics
 Every group has a Turn Pattern which are decisions considered called Pathing.
-L R LR RL LRL RLR LRR RRL
+LR RL LRL RLR LRR RRL
 Pathing determines which direction the children run once escaped, and the subsequent decisions they make when reaching Decision Points following Paths.
+If a child reaches the Inner Path, they can smell fresh air and cannot be recaptured or eaten.
 
 ### Turn Around
 When a Group encounters the end of a path that has a building attached, they turn around 180°.
@@ -323,7 +328,7 @@ Every Group has special characteristics.
 The turn after children escape, adults return to lay waste to Troll Town. For each Child that escapes, return 1 Adult, starting at the bridge.
 
 ### Adult Behavior
-Each adult will determine Pathing Pattern as a child, but instead of repeating at the end of a path sequence, the adult damages, then breaks the nearest Path Join.
+Each adult will determine Pathing Pattern as a child, but instead of repeating at the end of a path sequence, the adult breaks the nearest Path Join.
 
 ### Boats
 Groups of 4 Adults will raid in boats. Boats are represented by cards thrown from the top orientation from a short distance away (2-5 feet), aiming at the bridge. If the thrown card doesn't touch any game piece, re-orient the throw from where the card lies. Boats land on sections of Troll Town determined where a thrown card lies.   After landing, Adults will start at the nearest Hex.
@@ -334,15 +339,15 @@ Trolls can prepare for Adults by building Traps.
 
 #### Spikes
 
-Spikes cost 6 workers to build and occupy a hex. Spikes cannot be placed on the Inner Path. Spikes prevent Adults from proceeding, and remove the first Adult who triggers them. The triggered Spikes are removed from the board after all Adult Pathing is resolved.
+Spikes cost 6 Minions to build and occupy a hex. Spikes cannot be placed on the Inner Path. Spikes prevent Adults from proceeding, and remove the first Adult who triggers them. The triggered Spikes are removed from the board after all Adult Pathing is resolved.
 
 #### Fences
 
-Fences use 10 workers to deploy. Fences prevent boats from landing, if a boat hits only a fence, not a building or hex.
+Fences use 10 Minions to deploy. Fences prevent boats from landing, if a boat hits only a fence, not a building or hex.
 
 ## Conflicts
 ### Resource Conflicts
-When there are insufficient workers to complete a Construction or Action. Conflict occurs near worker dwelling.
+When there are insufficient Minions to complete a Construction or Action. Conflict occurs near Minion dwelling.
 ### Building Conflicts
 When two Constructions occur on the same hex. Conflict happens on nearest Path Join to that Hex.
 ### Intersection Conflicts
@@ -350,7 +355,7 @@ When two Trolls try to do a Conflicting Action, such as capturing Children.
 
 ### Conflict Rules
 Resolve Resource Conflicts before Building Conflicts
-Conflicts always occur at the closest Path Join to the Intersection or Conflict Location. If there are multiple Path Joins equidistant from the Location, use one closer to the Dwelling of the Infracting Troll, the one who started the Conflict. ( ie. Resource Conflict, the Troll who wanted to use the worker, not the Troll who first took the worker )
+Conflicts always occur at the closest Path Join to the Intersection or Conflict Location. If there are multiple Path Joins equidistant from the Location, use one closer to the Dwelling of the Infracting Troll, the one who started the Conflict. ( ie. Resource Conflict, the Troll who wanted to use the Minion, not the Troll who first took the Minion )
 
 #### Speed Rule
 In determining Intersection Locations, a special rule may be used. Each player may count a number of hexes corresponding to their Troll Speed in ticks moving from their Dwelling towards eachother. Thus, a Troll with a speed of 6 against a speed of 2 will Conflict much closer to the Dwelling belonging to the slower Troll.
@@ -407,6 +412,9 @@ If a building is Broken, flip the tile over. This space is full of debris and ca
 
 # Troll Boss
 
+## Boss Targets
+The Troll who has most recently Challenged or Stolen from the Troll Boss, are the top priority for Intimidation and Tantrums. After that, or if no Troll has bothered the Boss, the target is the Troll with the closest Hut to the Boss Hut, in the case of Intimidation, or the last Hut visited, in the case of a Tantrum.
+
 ## Boss Stats
 By default, the Boss is completely average, with a Hut, thus having stats of 4/4/4/4/4.
 
@@ -418,15 +426,21 @@ Strike : Cause Injury
 Build - Same. Has priority over Trolls. Costs one less Minion.
 
 ## Boss Auto Actions:
-Heal at closest shop or Build to Hub if needed.
-### On Turn 10:
-> Intimidate : Steals one Worker from each Troll, going in order starting at closest.
 
-> Builds towards closest hut until non-hub path is complete, then do next. Hates straight lines.
+Priority: Heal at closest shop or Build to Hub if needed. Then build to Player Huts, then Cycle.
+Cycle: Intimidate Workers until no room in Hut, then build a hovels off Hut.
 
-> Boss can't steal worker? Strike instead.
+### Turn 5, 7, 9:
+> Boss Steals a Public Worker.
+> Build to Player Huts: Builds towards closest hut until non-hub path is complete. Hates straight lines.
 
-Once complete, Builds Hovel off Hut
+### Turn 10:
+> Intimidate : Steals one Worker from each Troll, going in order starting at closest. Troll can defend. Boss will attack 3x, and if he wins one, he gets the worker.
+
+> No Private Minion to Steal? Strike instead.
+
+Once complete, Builds Hovel off Hut.
+
 ### Turn 20:
 > Intimidate: Total of 4 Workers. Builds Pit next to Hut.
 Adds Hovel
@@ -451,9 +465,9 @@ Will take residence in a hut. Heal Wounds until fine, Collect Children and Get M
 
 # Win Conditions
 ## Biggest
-The winner is the Troll Boss, if there is an unbroken connection between their Hut and the Bridge.
+The winner is the Troll Boss, if there is an unbroken connection between their Hut and the Bridge. Alternatively, the first player to become the Troll Boss is the winner.
 ## Greediest
-The winner is the Troll with the greatest number of Private Workers, in case of a tie, one final Challenge between the two, to the winner goes the spoils.
+The winner is the Troll with the greatest number of Private Workers, in case of a tie, one final Challenge between the two, to the winner goes the spoils. Alternatively, first Troll to reach 10 private workers is the winner.
 ## Friendliest
 Any Troll who has an unbroken connection between their Hut and the Hub is considered to be a winner.
 
@@ -464,6 +478,11 @@ Boss has to build a path to the Hub before building to Huts
 
 Choose Boss Stats
 
+No Damaging Path Joins, things are just broken.
+
+Broken Paths are not removed from the board, are just unusable. Must be cleared with 'Destroy' Action.
+
+Any conflict causes kids in nearest container to attempt escape
 
 # Advanced Version
 
@@ -481,7 +500,7 @@ Clay Hut - 8
 Hut With Attached Pile + 10
 
 #### Trinkets
-Trinkets add one to any Troll stat. One trinket is made when a Troll has two private resources and has one available worker and selects the "Make Trinket" action. Trolls can make as many Trinkets as they want at one time, provided they have sufficient workers and resources.
+Trinkets add one to any Troll stat. One trinket is made when a Troll has two private resources and has one available Minion and selects the "Make Trinket" action. Trolls can make as many Trinkets as they want at one time, provided they have sufficient Minions and resources.
 
 #### Improved Resources
 Improved Resources are the result of a workshop transformation and are used instantly, returning the income at the beginning of next turn.
