@@ -22,7 +22,7 @@ This is accomplished by the Trolls:
 - Declaring troll / minion actions by placing tokens on slate, hiding if desired.
 - Each Troll will exclaim 'ready' or grunt when done.
 
-Once all Trolls are ready, players declare Actions and Orders in the same order they announced. If an order is Planned, it MUST be Declared.
+Once all Trolls are ready, players declare Actions and Orders in the same order they announced. If an order is Planned, it MUST be Declared. This is ensured by placing tokens on the card.
 
 **Declaration**
 - Troll: Declare Action, Resolve Conflicts
@@ -44,7 +44,7 @@ Minions must stay in Hovels or Huts and Children must be placed in Cages or Huts
 ## Feast Day
 The whole point of building a Troll Town is Feast Day.
 All injuries are healed.
-Feasting automatically occurs at the end of Turn 10, 20, 30 and 40, unless triggered earlier by the Troll Boss.
+Feasting automatically occurs at the end of Turn 10, 20, 30 and 40.
 On Feast Day, there must be 4, 16, 25 and 40 children captured, and sufficient Workshops to cook them.  Otherwise the Boss throws a Tantrum.
 Keep overage children for next Feast.
 
@@ -90,7 +90,7 @@ At site of infraction, or at intersection between Huts.
 ## Troll Actions
 Parenthesis indicates Location of Conflict. I means an Intersection between the Troll Dwellings.
 
-### I
+### Age I
 
 **Do not conflict**
 
@@ -101,36 +101,40 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 - Capture Child (I) - Add children to hovel, cage or pit
 - Challenge (I) - Resolves amongst Trolls, then Boss.
 
-### II
+### Age II
 
 **No Conflict**
 
-- Smash - Break a Damaged Path Join. Conflict will break it anyway.
+- Smash - Break a Path Join. Conflict will break it anyway.
+- Make Trinket - Requires Shop off Hut
 
 **Can Conflict If Not Enough Shops**
 
 - Upgrade - (Shop) - Upgrade Hut / Shop with Hovel / Pile
 - Heal (Shop) - Remove one injury token
+- Make Trap (Shop) - Make Spikes or Fences
 
 **Will Conflict**
 
 - Schmooze (I) - Build w/o Conflict. Can cause Conflict. Costs 1 Private Worker.
 - Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
 
-### III
+### Age III
 **Conflict**
 - Fight (I) - Start fight, steal worker.
-- Destroy ( Target ) - Destroy Path or Building ( 1 private worker per hex ). Closest Hut Troll will Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
+- Destroy ( Target ) - Destroy Path or Building ( 1 private worker per hex ). Closest Hut Troll can Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
+- Evict - Same as Challenge, except can be used vs other Trolls. Get Hut, all workers, all upgrades, except trinkets.
 
 ### IV
 - Start fire - Sacrifice private worker. Start fire on Path.
 
 ## Minion Orders:
 Build (Hex) - Conflict happens when building on same hex
+Attrition - Add +1 to any stat for all conflicts and challenges this turn. Attrition sacrifices the worker token.
+(Opt: Only private workers can be used for Attrition)
 
 # Constructions:
 The *Inner Path* comprises of the Path hexes surrounding the Hub.
-
 The *Bridge* is the vertical 3-tile piece on top of the Hub.
 
 ## Building rules
@@ -213,17 +217,19 @@ Requirements
 Benefits
 - Cook 4 kids
 - Rope - 4 kids per trip
-- Two Injuries
+- Heal Two Injuries
+- Make Spikes
 
 ### Lvl 3
-Requiremnts
-+ attached stockpile
+Requirements
++ attached Pile
 + 4 workers to operate ( +1 / Total 2 Artisans )
 
 Benefits
 - Cook 8 Kids
 - Bag - 8 kids per trip
-- Heal two injuries
+- Heal three injuries
+- Make Fences
 
 ## Pile
 (2)
@@ -313,6 +319,27 @@ Every Group has special characteristics.
   Will not Path into Huts
 
 
+## Returning as Adults
+The turn after children escape, adults return to lay waste to Troll Town. For each Child that escapes, return 1 Adult, starting at the bridge.
+
+### Adult Behavior
+Each adult will determine Pathing Pattern as a child, but instead of repeating at the end of a path sequence, the adult damages, then breaks the nearest Path Join.
+
+### Boats
+Groups of 4 Adults will raid in boats. Boats are represented by cards thrown from the top orientation from a short distance away (2-5 feet), aiming at the bridge. If the thrown card doesn't touch any game piece, re-orient the throw from where the card lies. Boats land on sections of Troll Town determined where a thrown card lies.   After landing, Adults will start at the nearest Hex.
+
+### Traps
+
+Trolls can prepare for Adults by building Traps.
+
+#### Spikes
+
+Spikes cost 6 workers to build and occupy a hex. Spikes cannot be placed on the Inner Path. Spikes prevent Adults from proceeding, and remove the first Adult who triggers them. The triggered Spikes are removed from the board after all Adult Pathing is resolved.
+
+#### Fences
+
+Fences use 10 workers to deploy. Fences prevent boats from landing, if a boat hits only a fence, not a building or hex.
+
 ## Conflicts
 ### Resource Conflicts
 When there are insufficient workers to complete a Construction or Action. Conflict occurs near worker dwelling.
@@ -377,7 +404,6 @@ If a Path Hex is removed, any attached buildings suffer one damage. Buildings ca
 
 ### Broken Buildings
 If a building is Broken, flip the tile over. This space is full of debris and cannot be used.
-
 
 # Troll Boss
 
@@ -444,7 +470,7 @@ Choose Boss Stats
 ### Income & Resources
 
 #### Income vs Resources
-Income represents flow of supplies, and is not diminished when used for Building.
+  Income represents flow of supplies, and is not diminished when used for Building.
 Improved and Private Resources are fixed and are consumed when used.
 
 #### Private Resources
@@ -483,4 +509,5 @@ Connections - Thinkgs must be connected to function. Shops <> Huts = Heal, Snare
 Paths and structures cannot be built if > 2/3rds of the Join Spaces are filled.
 (One hex, 4 is ok, 5-6 is not. Trolls don't fix broken paths. Build new. )
 
-
+Trinkets
+Shop attached to Hut, makes +1 token for each stat, max of 5.
