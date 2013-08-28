@@ -7,7 +7,7 @@ Before you play, agree on the Win Condition(s). One free hovel to start per two 
 
 Decide on Troll Stats, balance out 15 points into 5 catagories.
 
-## Game Concepts
+# Game Concepts
 ## Turns
 A game of Troll Town is conducted over the course of 40 turns. A turn consists of declaring actions simultaneously (see 'Confusing Bits').
 
@@ -17,6 +17,7 @@ Actions are declared at the same time, and resolve in the following order.
 - Boss Action -> Minion Orders
 - Troll Action -> Minion Orders
 
+#### PreTurn
 This is accomplished by the Trolls:
 **Planning**
 - Declaring troll / minion actions by placing tokens on slate, hiding if desired.
@@ -32,14 +33,15 @@ Once all Trolls are ready, players declare Actions and Orders in the same order 
   - Players declare their Orders one at a time by stating the Construction and required Minions
   - An insufficient number of Communal Workers causes a Conflict
 
-#### Era Specific Actions
-    I : Challenge Boss, Child, Minion
-    II: Upgrade Hovel, Heal, Schmooze, Smash
-    III: Upgrade Pile, Scare, Fight, Destroy
-    IV: Fire
 
 #### Post Turn
 Minions must stay in Hovels or Huts and Children must be placed in Cages or Huts. Otherwise they run away and are removed from the board.
+
+#### Era Specific Actions
+    I : Challenge Boss, Capture Child, Capture Minion, Slave Drive
+    II: Upgrade Hovel, Steal, Heal, Schmooze, Make Trap, Craft Tool, Destroy
+    III: Upgrade Pile, Scare, Upgrade Hut with Shop, Make Trinket
+    IV: Fire, Upgrade Hut With Pile
 
 ## Feast Day
 The whole point of building a Troll Town is Feast Day.
@@ -48,25 +50,36 @@ Feasting automatically occurs at the end of Turn 10, 20, 30 and 40.
 On Feast Day, there must be 4, 16, 25 and 40 children captured, and sufficient Workshops to cook them.  Otherwise the Boss throws a Tantrum.
 Keep overage children for next Feast.
 
-### Trolls
+## Trolls
 Each player is a Troll and takes an Action each Turn. There is also a Non-Player Troll Boss. At the beginning of the game, Trolls live on the Bridge, and move to a Hut when one is built.
 
-#### Troll Stats
+### Troll Stats
 Trolls have five stats, Muscles, Skin, Guts, Brains and Speed. These are assigned values by the player totaling 15. All stats increase by 1 when a Troll has a Hut, and by another 1 when that Hut has a Pile attached for a total of +2 to all stats.
 
-### Minions
+## Minions
 Minions are slave creatures captured when Trolls do a Capture Worker action.
 
 Minions are either communal or private, decided by where they are placed at the time of capture.
 
-#### Communal Minions
+### Communal Minions
 Communal Minions live 2 to a Hovel. These are drawn upon for Constructions by all Trolls.
 
-#### Private Minions
+### Private Minions
 A Mud Hut supports 2 Private Minions, a Wood Hut supports 6. One Hovel can be added as an upgrade to a Hut to house an additional two Minions, one of which will be a Servant. The Boss Hut can support multiple Hovels, and doesn't have a Servant requirement. Private Minions may only be used by the owning Troll.
 
-##### Servants, Guards & Artisans
-To facilitate upgrades Private Minions are used as a permanent labor force in a Pit, Hut or Shop. Once a Private Minion becomes a Guard, Servant or a Artisan, they are no longer a Private Minion and are permanently assigned to a building hovel. Move the Private Minion token to the Upgrade Hovel as part of the Upgrade Action.
+#### Servants, Guards & Artisans
+To facilitate upgrades Private Minions are used as a permanent labor force in a Pit, Hut or Shop. Once a Private Minion becomes a Guard, Servant or a Artisan, they are no longer considered a Private Minion and are permanently assigned to a building hovel. Move a Private Minion token to an Upgraded Hovel as part of every Upgrade Action.
+
+##### Huts
+Keep your Private Minions on your Hut and your Servants inside the Hovels.
+
+##### Shops
+Keep 1, then 2 Artisans in the Hut as you upgrade to Hovel, then Pile.
+
+##### Pit
+For each level of Pit Upgrade, two Guards must be placed in the Hovels attached to the Pit.
+
+
 
 ## Confusing Bits
 
@@ -106,8 +119,7 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 
 **No Conflict**
 
-- Smash - Break a Path Join.
-- Make Trinket - Requires Shop off Hut
+- Smash - Break a Path Join. ( If rules permit Broken Path Joins )
 - Steal (I) - Start fight, steal 2 Private Minions.
 
 **Can Conflict If Not Enough Shops**
@@ -119,14 +131,15 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 **Will Conflict**
 
 - Schmooze (I) - Act / Build w/o Conflict. Can cause Conflict. Give 1 Private Worker to Boss.
-- Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
 
 ### Age III
 **Conflict**
 - Destroy ( Target ) - Destroy Path or Building ( req. 1 private Minion per hex ). Closest Hut Troll can Challenge. Cannot be used on other Huts, Bridge, Inner Path or Hub.
-- Evict - Same as Challenge, except can be used vs other Trolls. Get Hut, all Minions, except trinkets. Loser occupies Winner's hut.
+- Scare (Cage) - One cage / pit will not escape. Conflict causes escape.
 
+**NO Conflict**
 - Upgrade - Add Shop to Hut, add Pile to Shop
+- Make Trinket - Requires Shop off Hut
 
 ### IV
 - Start fire - Sacrifice private Minion. Start fire on Path.
@@ -134,6 +147,7 @@ Parenthesis indicates Location of Conflict. I means an Intersection between the 
 
 ## Minion Orders:
 Build (Hex) - Conflict happens when building on same hex
+Move Child - Bring a child token from one cage / pit to another. 1 Child per Worker
 Attrition - Add +1 to any stat for all conflicts and challenges this turn. Attrition sacrifices the Minion token.
 (Opt: Only private Minions can be used for Attrition)
 
@@ -179,9 +193,9 @@ The *Bridge* is the vertical 3-tile piece on top of the Hub.
 > Shop - 4 Workers
 
 ### Upgrades
-> Hovel - 3 Minions
->
-> Pile - 6 Workers
+> Shop : Hovel - 3, Pile - 6
+> Hut : Hovel - 3, Shop - 6, Pile - 6
+> Pit : Hovel - 9
 
 ## Paths
 2, 3 and 4 hex
@@ -261,7 +275,7 @@ Requirements
 
 Benefits
 
-+ Stores 18 Children
++ Stores 27 Children
 
 ## Hut
 (6)
