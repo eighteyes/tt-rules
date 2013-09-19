@@ -2,10 +2,12 @@
 ## Intro
 Welcome to Troll Town, a game of communication, cooperation, competition and feasting on children. Some manual dexterity is required to play.
 
+Troll Towns start as some sticks stuck in muck, build into a formation and fall apart due to squabbles. Complicating the matter is a Boss Troll who behaves in ways that are not amenable to players meeting their goals.
+
 ## Setup
 Before you play, agree on the Win Condition(s). One free hovel to start per two players. Use straight three hex as Bridge. Surround the hub with hexes in some fashion. Pointy outs are ok. Place Boss Hut somewhere near Hub and connect with paths.
 
-Decide on Troll Stats, balance out 15 points into 5 catagories.
+Decide on Troll Stats, balance out 15 points into 5 categories.
 
 # Game Concepts
 ## Turns
@@ -346,6 +348,8 @@ Each adult will determine Pathing Pattern as a child, but instead of repeating a
 
 ### Boats
 Groups of 4 Adults will raid in boats. Boats are represented by cards thrown from the top orientation from a short distance away (2-5 feet), aiming at the bridge. If the thrown card doesn't touch any game piece, re-orient the throw from where the card lies. Boats land on sections of Troll Town determined where a thrown card lies.   After landing, Adults will start at the nearest Hex.
+
+Boats can land inside the Town.
 
 ### Traps
 
