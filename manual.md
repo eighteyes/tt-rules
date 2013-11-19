@@ -5,9 +5,124 @@ Welcome to Troll Town, a game of communication, cooperation, competition and fea
 Troll Towns start as some sticks stuck in muck, build into a formation and fall apart due to squabbles. Complicating the matter is a Boss Troll who behaves in ways that are not amenable to players meeting their goals.
 
 ## Setup
-Before you play, agree on the Win Condition(s). One free hovel to start per two players. Use straight three hex as Bridge. Surround the hub with hexes in some fashion. Pointy outs are ok. Place Boss Hut somewhere near Hub and connect with paths.
+Use straight three hex path as Bridge. At the end of the Bridge place the Hub.
 
-Decide on Troll Stats, balance out 15 points into 5 categories.
+Each player takes a random tile and places it in the following order:
+
+1) All the edges of the hub must be adjacent to a path, being surrounded.
+This ring of hexes is known as the Inner Path. Once this is complete.
+
+2) Pieces may be placed off the Inner Path, but not running parallel to it. Until.
+
+3) 6 Joined Edges ( 1 1/2 hexes ) Not on the Inner Path that can fit a Hut are formed.
+
+4) The first player to form paths for the Boss Hut is granted first move.
+
+
+## Turn Sequence
+
+No matter what, the Troll Boss goes first.
+
+Then the player with first move goes.
+
+Then the player to the right of the player with first move goes.
+
+This repeats until everyone has gone.
+
+## Tross Boss Actions
+
+Troll Boss is an Ass.
+
+Starts with 3 workers. Builds Paths out.
+Starting on Turn 5, Troll Boss starts his Cycle.
+
+Every turn, one player, starting with the player who has the closest Hut and moving outward in distance, will be subject to the whimsy of the Troll Boss:
+
+1) Steal 1 worker
+2) Steal 1 trinket - melts down dupes
+3) Steal 1 child - eats immediately
+
+## Troll Actions
+
+### Wait at Bridge
+  Bridge Card - Slave Creature or Child
+
+#### Slave Creatures
+
+  Advantages: Enables trinkets, crafts, guards. Builds things.
+  Disadvantages: Some useless, some crafty, some violent.
+
+  ##### Secrets ( Expansion )
+  Great and horrible things unlock different powers.
+
+  Treasures - Requires large number of workers, can collaborate.
+  Trinkets - Requires no workshop to use.
+  Plans - Parties to raid, shipments to pillage.
+  Skills - How to do wonderful things. Crafting, Cooking, Trapping.
+  Lies - Magic Spells
+
+#### Children
+
+  Advantages: Needed for feasts.
+  Disadvantages: Prone to escaping. Special abilites come into play. Players play escaped children as cards against thier enemies during escape conditions, requires 1 worker per child.
+
+  #### Special Abilities
+  Played as cards during escape events.
+  Sneak - Will hide in hut, hovel or workshop and run again next turn. Nothing can be made or live at this place. Only one child can hide in a building.
+  Arsonist - Starts fires at first decision fork and continue. If Arsonist paths through fire, he starts a fire at the subsequent decision fork. Groups of Arsonists start one fire for each member of the group.
+  Panicked - At a dead end, 50% chance of jumping off and escaping.
+  Nothing to Lose - Paths into a hut, kills a worker, is re-captured.
+
+
+  ###### Escape Events
+  Every cage or pit within 3 hexes of a Quarrel causes children to escape, unless Guarded.
+  If the Troll Boss has a Tantrum, all children will escape, without special abilities, just pathing instructions. Children escaping Pits will group into thirds, all considered to be following the lead of a child who may have special abilities. Note
+
+### Quarrel
+  Trolls can pick on others on a hex of their choosing.
+
+  d6 determines stat, Skin Head Eyes Arms Feet Torso. Compare between two. Loser gets Injury Card.
+
+### Look for Trinket
+  Draw a Trinket card.
+
+  #### Trinkets
+  Trinkets increase Troll Stats and change gameplay in hopefully non-broken ways.
+
+  All Seeing Eye, Scrawly Diagram, Murder of Crows, King of the Flies - Grants town vision R( +Eyes )
+  Sticks, Staves, Axes, Cudgels, Bludgeons, Pipes, Chains - Grants +R Torso +R Arms - Eyes
+  Helmets, Shields - +R Head +R Arms
+  Boots, Brambles - +R Feet
+
+
+  #### Manufacture
+  If requirement is met, item can be used immediately.
+  If stat requires boosting to use, it must be fixed in a workshop.
+  Trinkets must be sacrificed to upgrade Huts / Workshops.
+
+
+## Minion Actions
+
+  Minions
+  Build (v) - make hexes or buildings
+  Quench Fire - 1 worker per hex, stops fire, kills worker.
+  Start Fire - 1 worker per hex, starts fire, kills worker.
+  Torture - Gives up Secret.
+  Ease Up - Permanent Occupation.
+  Trade - Move child card onto an opponents escape queue.
+  Causes Quarrel
+  Steal - Grab a trinket / Child!
+  Sabotage (3) - Stops a building in progress.
+  Harass (6) - Steal 1 Worker
+  Destroy ( v*2 ) - collapse a building or path
+
+
+
+# Terms
+## Vision
+Any player is considered to be able to do actions on Hexes which are visible. A player is considered to have Vision of any hex which is in the line of sight of any building owned by the player. For this purpose, all players are considered to own the Hub. The Troll Boss has All Seeing, and is not restricted by Vision.
+
+Decide on Troll Stats, balance out 18 points into 6 categories.
 
 # Game Concepts
 ## Turns
@@ -548,3 +663,21 @@ Paths and structures cannot be built if > 2/3rds of the Join Spaces are filled.
 
 Trinkets
 Shop attached to Hut, makes +1 token for each stat, max of 5.
+
+### Glutton Verstion
+One free hovel to start per two players.
+
+Before you play, agree on the Win Condition(s).
+
+## Expansions
+Must be in card sets.
+
+##### Secrets ( Expansion )
+  Great and horrible things.
+  Bloodlines - Powerful families, raids, kidnapping,
+
+##### Town
+
+##### Plots
+  Draw a Plot card when Torturing. Minimum Number of Tortured workers. Can't Off workers.
+  Insanity, Ruse, Commingling, Damage, Mob, Scheme, Whittle...
