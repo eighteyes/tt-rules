@@ -29,6 +29,9 @@ Then the player to the right of the player with first move goes.
 
 This repeats until everyone has gone.
 
+## Post Turn
+Minions must stay in Hovels, Workshops or Huts and Children must be placed in Cages or Pits. Otherwise they run away and are removed from the board.
+
 ## Tross Boss Actions
 
 Troll Boss is an Ass.
@@ -42,14 +45,19 @@ Every turn, one player, starting with the player who has the closest Hut and mov
 2) Steal 1 trinket - melts down dupes
 3) Steal 1 child - eats immediately
 
+If any of these cannot be met, the Troll Boss wrecks the path join hex for their Ideal Path and the Hex.
+
+
+
 ## Troll Actions
 
 ### Wait at Bridge
   Bridge Card - Slave Creature or Child
+  Hold onto child card. Slave creature goes face down in a Commoners pile.
 
 #### Slave Creatures
 
-  Advantages: Enables trinkets, crafts, guards. Builds things.
+  Advantages: Enables trinkets, overseer, crafts, guards. Builds things.
   Disadvantages: Some useless, some crafty, some violent.
 
   ##### Secrets ( Expansion )
@@ -58,8 +66,12 @@ Every turn, one player, starting with the player who has the closest Hut and mov
   Treasures - Requires large number of workers, can collaborate.
   Trinkets - Requires no workshop to use.
   Plans - Parties to raid, shipments to pillage.
-  Skills - How to do wonderful things. Crafting, Cooking, Trapping.
   Lies - Magic Spells
+
+  ##### Occupation
+  Servant - Lives in Hut, enables Hut upgrades
+  Crafts  - Lives in Workshop, enables WS upgrades
+  Guard   - Lives on Map. Prevents escape from Adjacent Child holding structures.
 
 #### Children
 
@@ -68,11 +80,13 @@ Every turn, one player, starting with the player who has the closest Hut and mov
 
   #### Special Abilities
   Played as cards during escape events.
-  Sneak - Will hide in hut, hovel or workshop and run again next turn. Nothing can be made or live at this place. Only one child can hide in a building.
+  Sneak - Will hide in hut, hovel or workshop. Nothing can be made or live at this place. Only one child can hide in a building. Children are re-captured next player turn.
   Arsonist - Starts fires at first decision fork and continue. If Arsonist paths through fire, he starts a fire at the subsequent decision fork. Groups of Arsonists start one fire for each member of the group.
   Panicked - At a dead end, 50% chance of jumping off and escaping.
-  Nothing to Lose - Paths into a hut, kills a worker, is re-captured.
-
+  Nothing to Lose - If paths into a hut, kills a worker, is re-captured. Groups massacare workers.
+  Compassionate - Releases other children, adds to group.
+  Sly - Will bypass Guards and Quarrelling
+  Aggressive - Does 1 Injury to Losing Troll if a Quarrel is encountered.
 
   ###### Escape Events
   Every cage or pit within 3 hexes of a Quarrel causes children to escape, unless Guarded.
@@ -81,7 +95,10 @@ Every turn, one player, starting with the player who has the closest Hut and mov
 ### Quarrel
   Trolls can pick on others on a hex of their choosing.
 
-  d6 determines stat, Skin Head Eyes Arms Feet Torso. Compare between two. Loser gets Injury Card.
+  d6 determines stat, Skin Head Eyes Arms Feet Torso. (SHEAFT) Compare between two. Loser gets Injury Card.
+
+### Get First Move
+  Move first after the troll boss.
 
 ### Look for Trinket
   Draw a Trinket card.
@@ -94,27 +111,54 @@ Every turn, one player, starting with the player who has the closest Hut and mov
   Helmets, Shields - +R Head +R Arms
   Boots, Brambles - +R Feet
 
+  Traps. R+ Head
+  Block a hex from passing by enemies
+
+  Twine. R+ Head
+  Use two workers to prevent one Hovel from operating for one turn.
+
+  Bag of Sawdust, Smoke Bomb, Sparkles. R+ Head R+ Arms R+ Feet
+  Use three workers to prevent one workshop from operating for one turn.
+
 
   #### Manufacture
   If requirement is met, item can be used immediately.
-  If stat requires boosting to use, it must be fixed in a workshop.
-  Trinkets must be sacrificed to upgrade Huts / Workshops.
+  If stat requires boosting to use, it must be Fiddled with in a workshop by a craft minion. Each craft minion with a level of workshop can reduce stat requirements by 1, to a max of 3.
+  Trinkets must be sacrificed to make Traps, upgrade Pits / Huts / Workshops.
+
+
+  Rope - +R Arms Get 2 cards when visiting bridge.
+  Bags - +R Arms Get 3 cards when visiting bridge.
+  Cage - +R Arms Get 4 cards when visiting bridge.
+
 
 
 ## Minion Actions
 
   Minions
-  Build (v) - make hexes or buildings
+  Build (v) - make hexes
   Quench Fire - 1 worker per hex, stops fire, kills worker.
   Start Fire - 1 worker per hex, starts fire, kills worker.
-  Torture - Gives up Secret.
-  Ease Up - Permanent Occupation.
+  Torture - Gives up Secret. Draw random Commoner.
+  Station - Permanent Occupation. Draw random Commoner. Overseer, Servant, Guard, or Crafts
   Trade - Move child card onto an opponents escape queue.
-  Causes Quarrel
-  Steal - Grab a trinket / Child!
-  Sabotage (3) - Stops a building in progress.
   Harass (6) - Steal 1 Worker
-  Destroy ( v*2 ) - collapse a building or path
+  Wreck ( v^2 ) - collapse a path
+  Horrific Displays ( v^2 + all) - sacrifice v^2 workers, gain +1 random stat for v, place token anywhere, lasts until hex destroyed, or if there is ever no connection between Hut and Horrific Display
+
+  Trap - Set Traps
+
+  Requires Workshop + Craft minion
+  Smelt - Reduce Trinket for Upgrades / Traps
+  Fiddle - Make found Trinket useful
+
+  Combo
+  Oversee (v) - make building / upgrade
+  Causes Quarrel
+  Steal (2) - Grab a trinket / Child!
+  Sabotage (3) - Stops a building being made this turn.
+  Destroy ( v^2 ) - collapse a building or path
+  Intimidate ( x^2 ) - steal x workers from another troll
 
 
 
@@ -123,6 +167,8 @@ Every turn, one player, starting with the player who has the closest Hut and mov
 Any player is considered to be able to do actions on Hexes which are visible. A player is considered to have Vision of any hex which is in the line of sight of any building owned by the player. For this purpose, all players are considered to own the Hub. The Troll Boss has All Seeing, and is not restricted by Vision.
 
 Decide on Troll Stats, balance out 18 points into 6 categories.
+
+
 
 # Game Concepts
 ## Turns
